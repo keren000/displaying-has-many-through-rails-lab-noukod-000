@@ -3,7 +3,7 @@
   <b>Doctor:</b>
     <li><%=link_to appointment.doctor.name, doctor_path(appointment.doctor)%>
       <br />
-      <b>Appointment</b>
+      <b>Appointment :</b>
         <%= appointment.appointment_datetime.strftime("%B %d, %Y at %H:%M") %></li>
   <%end%>
 
